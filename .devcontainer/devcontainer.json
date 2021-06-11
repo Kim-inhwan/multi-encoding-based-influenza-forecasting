@@ -1,0 +1,9 @@
+{
+    "name": "tensorflow2",
+    "image": "moreih29/tensorflow",
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+    ],
+    "runArgs": ["--name", "tensorflow2"],
+}
