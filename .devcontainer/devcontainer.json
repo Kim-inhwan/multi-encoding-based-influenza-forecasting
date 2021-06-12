@@ -1,9 +1,13 @@
 {
     "name": "tensorflow2",
-    "image": "moreih29/tensorflow",
+    "image": "moreih29/tensorflow:ds",
     "extensions": [
         "ms-python.python",
-        "ms-python.vscode-pylance",
+        "yzhang.markdown-all-in-one",
+		"mutantdino.resourcemonitor",
     ],
-    "runArgs": ["--name", "tensorflow2"],
+    "settings": { 
+		"python.languageServer": "Pylance",
+	},
+    "runArgs": ["--name==tensorflow2"],
 }
