@@ -9,5 +9,5 @@
     "settings": { 
 		"python.languageServer": "Pylance",
 	},
-    "runArgs": ["--name==tensorflow2"],
+    "runArgs": ["--name", "tensorflow2"],
 }
