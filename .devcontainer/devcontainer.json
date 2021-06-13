@@ -1,13 +1,13 @@
 {
-    "name": "tensorflow2",
-    "image": "moreih29/tensorflow:ds",
+    "name": "tensorflow",
+    "image": "moreih29/tensorflow-gpu:v1.4",
     "extensions": [
         "ms-python.python",
         "yzhang.markdown-all-in-one",
-		"mutantdino.resourcemonitor",
+	"mutantdino.resourcemonitor",
     ],
     "settings": { 
 		"python.languageServer": "Pylance",
 	},
-    "runArgs": ["--name", "tensorflow2"],
+    "runArgs": ["--name", "tf_gpu"],
 }
