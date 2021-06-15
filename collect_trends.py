@@ -76,6 +76,7 @@ def fill_zero(trends):
 
 
 def get_trends_csv():
+    print('load keyvector of model...')
     w2v_kv = KeyedVectors.load(f'./models/{kv_fname}')
 
     if len(tg_disease_kw)==0:
@@ -89,6 +90,7 @@ def get_trends_csv():
 
     word_trends = {}
 
+    print('collect trends of words...')
     for word in tqdm(related_words):
         try:
             trends = request_trends(word)
@@ -105,5 +107,6 @@ def get_trends_csv():
 
 if __name__=='__main__':
     get_trends_csv()
+    print('Done')
 
     

@@ -46,6 +46,7 @@ def word_segment(sent):
 
 
 def build_corpus():
+    print('build corpus...')
     ns = '{http://www.mediawiki.org/xml/export-0.10/}' # namespace
     with open(f'./data/{wiki_fname.split("-")[0]}_corpus.txt', 'w', encoding='utf-8') as fout:
         for i, (_, elem) in tqdm(enumerate(ET.iterparse(f'./data/{wiki_fname}'))):
