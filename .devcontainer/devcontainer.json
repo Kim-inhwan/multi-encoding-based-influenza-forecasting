@@ -3,11 +3,15 @@
     "image": "moreih29/tensorflow-gpu:v1.4",
     "extensions": [
         "ms-python.python",
-        "yzhang.markdown-all-in-one",
-	"mutantdino.resourcemonitor",
+	    "mutantdino.resourcemonitor",
     ],
     "settings": { 
 		"python.languageServer": "Pylance",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": false
+        },
 	},
     "runArgs": ["--name", "tf_gpu"],
 }
