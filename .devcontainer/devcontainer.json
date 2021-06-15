@@ -1,6 +1,6 @@
 {
     "name": "tensorflow",
-    "image": "moreih29/tensorflow-gpu:v1.4",
+    "image": "moreih29/tensorflow-gpu:v1.5",
     "extensions": [
         "ms-python.python",
 	    "mutantdino.resourcemonitor",
