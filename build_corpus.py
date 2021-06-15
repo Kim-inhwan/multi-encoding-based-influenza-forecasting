@@ -1,3 +1,7 @@
+'''
+https://github.com/Kyubyong/wordvectors/blob/master/build_corpus.py 을 참고하여 작성됨.
+'''
+
 from xml.etree import ElementTree as ET
 from konlpy.tag import Mecab
 from tqdm import tqdm
