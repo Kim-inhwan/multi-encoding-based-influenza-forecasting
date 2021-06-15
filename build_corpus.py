@@ -1,7 +1,8 @@
 from xml.etree import ElementTree as ET
 from konlpy.tag import Mecab
+from tqdm import tqdm
 import re
-import tqdm
+
 
 wiki_fname = 'kowiki-latest-pages-articles.xml'
 mecab = Mecab()
