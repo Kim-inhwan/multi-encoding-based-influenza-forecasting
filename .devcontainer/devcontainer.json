@@ -1,9 +1,10 @@
 {
     "name": "tensorflow",
-    "image": "moreih29/tensorflow-gpu:v1.5",
+    "image": "moreih29/tensorflow-gpu:v1.6",
     "extensions": [
         "ms-python.python",
 	    "mutantdino.resourcemonitor",
+        "alphabotsec.vscode-eclipse-keybindings",
     ],
     "settings": { 
 		"python.languageServer": "Pylance",
