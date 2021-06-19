@@ -14,5 +14,5 @@
             "strings": false
         },
 	},
-    "runArgs": ["--name", "tf_gpu"],
+    "runArgs": ["--name", "tf_gpu", "--gpus", "all"],
 }
